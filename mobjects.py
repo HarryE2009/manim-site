@@ -1,6 +1,6 @@
 from big_ol_pile_of_manim_imports import *
 
-class Mobjects(Scene):
+class www(Scene):
     '''
     Examples of the mobjects available in the manim library.
     (manimlib/mobject)
