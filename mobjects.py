@@ -7,7 +7,7 @@ class www(Scene):
     '''
     def construct(self):
         # TextMobject
-        text_mobject = TextMobject("34342342342")
+        text_mobject = TextMobject("billt")
         self.play(Write(text_mobject))
         self.wait()
         self.play(FadeOut(text_mobject))
@@ -80,7 +80,7 @@ class www(Scene):
 
         if name == "Line":
             brace = Brace(obj)
-            label = TextMobject("Brace").next_to(brace, DOWN).scale(0.7)
+            label = TextMobject("ghhbhbh").next_to(brace, DOWN).scale(0.7)
 
             self.play(GrowFromCenter(brace))
             self.play(Write(label))
