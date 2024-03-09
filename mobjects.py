@@ -27,7 +27,7 @@ class Mobjects(Scene):
         number_line.add_numbers()
         self.play(ShowCreation(number_line, submobject_mode = "one_at_a_time"))
         
-        number_line_text = TextMobject("NumberLine")
+        number_line_text = TextMobject("13")
         number_line_text.shift(UP)
         self.play(Write(number_line_text))
         self.wait()
@@ -39,7 +39,7 @@ class Mobjects(Scene):
         self.play(
             ShowCreation(plane, summobject_mode = "lagged_start")
         )
-        plane_text = TextMobject("NumberPlane")
+        plane_text = TextMobject("14")
         plane_text.to_edge(UP)
         self.play(Write(plane_text))
 
