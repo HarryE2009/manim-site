@@ -6,7 +6,7 @@ class www(Scene):
     (manimlib/mobject)
     '''
     def construct(self):
-        # TextMobject
+        # mon
         text_mobject = TextMobject("billt")
         self.play(Write(text_mobject))
         self.wait()
