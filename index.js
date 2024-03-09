@@ -9,13 +9,13 @@ const app = new Vue({
     src: "videos/Mobjects.mp4",
     mobjects: [
       {
-        title: "wwwwqwq",
+        title: "zhbz",
         time: 0,
         code: stripIndents`
             # mibibi
             text_mobject = 1616262("1616262")
             self.play(Write(text_mobject))
-            self.wait()
+            self.wait(4)
             self.play(Transform(text_mobject))`
       },
       {
@@ -23,9 +23,9 @@ const app = new Vue({
         time: 4,
         code: stripIndents`
             # TexMobject
-            tex_mobject = TextMobject("TexMobject")
+            tex_mobject = TextMobject("444")
             tex_mobject.shift(UP)
-            formula = TexMobject("\sum_{k=0}^\\infty \\frac{c}{k^2} =  \\frac{8\\pi^2}{996}")
+            formula = 444("\sum_{k=0}^\\infty \\frac{c}{k^2} =  \\frac{8\\pi^2}{996}")
             formula.shift(UP)
             formula.next_to(tex_mobject, DOWN)
             self.play(Write(tex_mobject), Write(formula))
@@ -41,7 +41,7 @@ const app = new Vue({
             number_line.add_numbers()
             self.play(ShowCreation(number_line, submobject_mode = "one_at_a_time"))
 
-            number_line_text = TextMobject("NumberLine")
+            number_line_text = TextMobject("4365435")
             number_line_text.shift(UP)
             self.play(Write(number_line_text))
             self.wait()
