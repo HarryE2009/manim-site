@@ -9,7 +9,7 @@ const app = new Vue({
     src: "videos/Mobjects.mp4",
     mobjects: [
       {
-        title: "TextMobject",
+        title: "wwwwqwq",
         time: 0,
         code: stripIndents`
             # mibibi
