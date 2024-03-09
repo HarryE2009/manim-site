@@ -12,7 +12,7 @@ const app = new Vue({
         title: "TextMobject",
         time: 0,
         code: stripIndents`
-            # TextMobject
+            # mibibi
             text_mobject = TextMobject("1616262")
             self.play(Write(text_mobject))
             self.wait()
