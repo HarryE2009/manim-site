@@ -9,7 +9,7 @@ const app = new Vue({
     src: "videos/Mobjects.mp4",
     mobjects: [
       {
-        title: "zhbz",
+        title: "Harry's Manim Project",
         time: 0,
         code: stripIndents`
             # mibibi
@@ -19,7 +19,7 @@ const app = new Vue({
             self.play(Transform(text_mobject))`
       },
       {
-        title: "TexMobject",
+        title: "Python",
         time: 4,
         code: stripIndents`
             # TexMobject
@@ -33,7 +33,7 @@ const app = new Vue({
             self.play(FadeOut(tex_mobject), FadeOut(formula))`
       },
       {
-        title: "NumberLine",
+        title: "Jill",
         time: 8,
         code: stripIndents`
             # number line
@@ -49,7 +49,7 @@ const app = new Vue({
             self.play(FadeOut(number_line))`
       },
       {
-        title: "NumberPlane",
+        title: "New Tomica?!?! 128?!?!",
         time: 13,
         code: stripIndents`
             # TexMobject
@@ -63,7 +63,7 @@ const app = new Vue({
             self.play(FadeOut(tex_mobject), FadeOut(formula))`
       },
       {
-        title: "Vector",
+        title: "Jill in Animal Crossing",
         time: 16,
         code: stripIndents`
             # vector
@@ -71,7 +71,7 @@ const app = new Vue({
             self.show_mobject("Vector", vector, GrowArrow, shift=UP+2*LEFT)`
       },
       {
-        title: "Dot",
+        title: "Benji",
         time: 20,
         code: stripIndents`
             # dot
@@ -79,12 +79,12 @@ const app = new Vue({
                 GrowFromCenter, shift=0.5*(UP+LEFT))`
       },
       {
-        title: "Line",
+        title: "C++",
         time: 24,
         code: `self.show_mobject("Line", Line(ORIGIN, UP+2*RIGHT), ShowCreation, shift=1.5*(UP+0.5*RIGHT))`
       },
       {
-        title: "Brace",
+        title: "3393",
         time: 26,
         code: "Brace"
       },
