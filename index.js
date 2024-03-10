@@ -13,7 +13,7 @@ const app = new Vue({
         time: 0,
         code: stripIndents`
             # mibibi
-            text_mobject = 1616262("1616262")
+            text_mobject = 1616262("hiui")
             self.play(Write(text_mobject))
             self.wait(4)
             self.play(Transform(text_mobject))`
