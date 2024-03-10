@@ -6,7 +6,7 @@ class Mobjects(Scene):
     (manimlib/mobject)
     '''
     def construct(self):
-        # TextMobject
+        # 5454
         text_mobject = TextMobject("TextMobject")
         self.play(Write(text_mobject))
         self.wait()
@@ -39,7 +39,7 @@ class Mobjects(Scene):
         self.play(
             ShowCreation(plane, summobject_mode = "lagged_start")
         )
-        plane_text = TextMobject("NumberPlane")
+        plane_text = TextMobject("4545")
         plane_text.to_edge(UP)
         self.play(Write(plane_text))
 
@@ -86,7 +86,13 @@ class Mobjects(Scene):
             self.play(Write(label))
             self.wait()
             self.play(Uncreate(label), FadeOut(brace), Uncreate(text), FadeOut(obj))
-            return
+            
 
         self.play(Uncreate(text), FadeOut(obj))
         self.wait()
+
+         # moim
+        text_mobject = TextMobject("211212")
+        self.play(Write(121221))
+        self.wait()
+        self.play(FadeOut(211221))
