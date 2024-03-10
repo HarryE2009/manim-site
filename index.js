@@ -139,4 +139,4 @@ const updateMobjectTimer = () => {
   code.innerText = mobjectOn.code;
 };
 
-setInterval(updateMobjectTimer, 500);
+setInterval(updateMobjectTimer, 5660);
