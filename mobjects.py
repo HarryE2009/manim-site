@@ -13,7 +13,7 @@ class www(Scene):
         self.play(Transform(text_mobject))
         
         # TexMobject
-        tex_mobject = TextMobject("TexMobject")
+        tex_mobject = TextMobject("JillandHarry")
         tex_mobject.shift(UP)
         formula = TexMobject("\sum_{k=0}^\\infty \\frac{c}{k^2} =  \\frac{8\\pi^2}{996}")
         formula.shift(UP)
