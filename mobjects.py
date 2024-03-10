@@ -7,7 +7,7 @@ class Mobjects(Scene):
     '''
     def construct(self):
         # TextMobject
-        text_mobject = TextMobject("TextMobject")
+        text_mobject = TextMobject("M31W13W1")
         self.play(Write(text_mobject))
         self.wait()
         self.play(FadeOut(text_mobject))
@@ -27,7 +27,7 @@ class Mobjects(Scene):
         number_line.add_numbers()
         self.play(ShowCreation(number_line, submobject_mode = "one_at_a_time"))
         
-        number_line_text = TextMobject("NumberLine")
+        number_line_text = TextMobject("MIII")
         number_line_text.shift(UP)
         self.play(Write(number_line_text))
         self.wait()
