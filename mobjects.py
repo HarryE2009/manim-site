@@ -7,7 +7,7 @@ class www(Scene):
     '''
     def construct(self):
         # mon
-        text_mobject = TextMobject("billt")
+        text_mobject = TextMobject("wu")
         self.play(Write(text_mobject))
         self.wait()
         self.play(Transform(text_mobject))
