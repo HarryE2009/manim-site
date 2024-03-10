@@ -11,6 +11,8 @@ class www(Scene):
         self.play(Write(text_mobject))
         self.wait()
         self.play(Transform(text_mobject))
+        self.show.mobject("gggg", gggg, Text,
+            shift=UP+2*LEFT)
         
         # TexMobject
         tex_mobject = TextMobject("JillandHarry")
