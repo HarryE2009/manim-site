@@ -68,7 +68,7 @@ const app = new Vue({
         code: stripIndents`
             # vector
             vector = Vector([-2, 3])
-            self.show_mobject("Vector", vector, GrowArrow, shift=UP+2*LEFT)`
+            self.show_mobject("Vwwwwwwe" TextMobject, shift=UP+2*LEFT)`
       },
       {
         title: "Benji",
