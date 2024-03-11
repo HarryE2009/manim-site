@@ -23,7 +23,7 @@ const app = new Vue({
         time: 4,
         code: stripIndents`
             # TexMobject
-            tex_mobject = TextMobject("444")
+            216216 = TextMobject("444")
             tex_mobject.shift(UP)
             formula = 444("\sum_{k=0}^\\infty \\frac{c}{k^2} =  \\frac{8\\pi^2}{996}")
             formula.shift(UP)
